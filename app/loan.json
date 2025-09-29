@@ -1,0 +1,167 @@
+[
+  {
+    "type": "Personal Loan",
+    "description": "A personal loan is an unsecured borrowing option provided by banks and NBFCs (Non-Banking Financial Companies), allowing you to obtain funds without collateral security. These loans are ideal for meeting various personal needs, such as settling overdue credit card payments, funding dream vacations, shopping sprees, weddings, medical treatments, and more. Personal loans cannot be used for starting new businesses or investing in stocks and commodities.",
+    "loan_limits": {
+      "maximum": "50 lac",
+      "minimum": "1 lac"
+    },
+    "duration": "1 year - 10 years",
+    "documents": {
+      "kyc": ["Pan Card", "Aadhar Card", "Passport Size Photos - 2"],
+      "income": [
+        "Salary Slips of Last 3 Months",
+        "Form - 16 Latest Year",
+        "All Bank Statements of 6 months from Till Date",
+        "Company ID Card Copy",
+        "Job Offer Letter Copy"
+      ],
+      "resident": ["Latest Light Bill Copy", "Rent Agreement (If Rented)"]
+    }
+  },
+  {
+    "type": "Property Loan",
+    "description": "A home loan helps you buy, build, or renovate your house with long repayment tenure, affordable interest rates, and tax benefits. LAP loans provide higher loan amounts against property with flexibility for business, renovation, medical expenses, or debt consolidation.",
+    "loan_limits": {
+      "maximum": "5 crore",
+      "minimum": "2 lac"
+    },
+    "duration": "2 years - 30 years",
+    "documents": {
+      "kyc": ["Pan Card", "Aadhar Card", "Passport Size Photos - 3"],
+      "income_salaried": [
+        "Salary Slips of Last 6 Months",
+        "Form - 16 Last 2 Years",
+        "Bank Statements of 6 months from Till Date",
+        "Company ID Card Copy",
+        "Job Offer Letter Copy"
+      ],
+      "income_self_employed": [
+        "Last 3 years IT-returns",
+        "Balance Sheet – Computation & Profit-loss",
+        "All Bank Statements of 6 months from Till Date (Current & Saving)",
+        "GU-MAT-SA Dhara Certificate, Udhyog-Aadhar, GST Certi.",
+        "Light-Bill of Business / Rent Agreement (If Rented)",
+        "Property Paper Copy (Master File)"
+      ],
+      "resident": ["Latest Light Bill Copy", "Rent Agreement (If Rented)"]
+    }
+  },
+  {
+    "type": "Business Loan",
+    "description": "Business and Project Loans provide funding for setup, expansion, machinery, working capital, or large ventures. With structured repayment and competitive rates, they ensure smooth operations, growth, and timely project completion.",
+    "loan_limits": {
+      "maximum": "5 crore",
+      "minimum": "2 lac"
+    },
+    "duration": "2 years - 25 years",
+    "documents": {
+      "common": [
+        "Identity proof (PAN, Aadhaar, Passport, etc.)",
+        "Address proof (Utility bill, Rent agreement, etc.)",
+        "Business registration certificate / GST registration",
+        "Company PAN card / Partnership deed / MOA & AOA (if applicable)",
+        "Last 2–3 years audited financial statements",
+        "Last 6–12 months bank statements",
+        "Income Tax Returns (business & promoters)",
+        "Detailed project report or business plan",
+        "Photographs of applicant/partners/directors"
+      ],
+      "project_specific": [
+        "Approved project cost estimates",
+        "Land ownership/lease documents",
+        "Government or regulatory approvals (if required)",
+        "Contracts/agreements with vendors or contractors"
+      ],
+      "business_specific": [
+        "Proof of business vintage (shop act/license, trade license)",
+        "Latest GST returns or sales tax filings",
+        "Existing loan or debt details (if any)"
+      ]
+    }
+  },
+  {
+    "type": "Travel Loan",
+    "description": "Foreign travel and education loans cover expenses such as airfare, tuition fees, accommodation, travel insurance, and living costs for overseas trips or studies. They provide flexible repayment and quick processing.",
+    "loan_limits": {
+      "maximum": "15 lac",
+      "minimum": "1 lac"
+    },
+    "duration": "1 year - 5 years",
+    "documents": {
+      "common": [
+        "Valid passport & recent photographs",
+        "Identity proof (PAN, Aadhaar, Voter ID, etc.)",
+        "Address proof (Utility bill, Rent agreement, etc.)",
+        "Bank statements (last 6–12 months)",
+        "Income proof (salary slips, ITR, or business financials if any)",
+        "Travel itinerary or admission confirmation letter"
+      ],
+      "travel_specific": [
+        "Confirmed flight tickets / tour package invoice / Offer Letter",
+        "Visa approval (if already obtained)",
+        "Travel insurance details / receipt"
+      ],
+      "education_specific": [
+        "Admission letter from overseas university/college",
+        "Detailed course fee structure and duration",
+        "Academic records (mark sheets, certificates)",
+        "Co-applicant/guarantor income proof and bank statements"
+      ]
+    }
+  },
+  {
+    "type": "Private Loan",
+    "description": "A Private Funding Loan is a flexible financing option offered by private lenders or investors to meet urgent personal, business, or project needs. Unlike traditional bank loans, private funding provides quick approvals, minimal paperwork, and customized repayment terms. It is ideal for individuals, startups, or businesses seeking immediate capital for expansion, working capital, property purchase, or high-value projects. Private loans usually have competitive interest rates based on risk assessment and collateral value. They are suitable for those with limited banking history or who require faster processing. With easier eligibility and negotiable terms, a private funding loan ensures timely financial support for growth, investment, or emergency requirements.",
+    "provider": "Option Finance",
+    "loan_limits": {
+      "maximum": "5 crore",
+      "minimum": "2 lac"
+    },
+    "duration": "1 year - 10 years",
+    "documents": {
+      "common": [
+        "Identity Proof (Aadhar, PAN, Passport, Voter ID)",
+        "Address Proof (Utility Bill, Rental Agreement, Passport)",
+        "Recent Passport-size Photographs",
+        "Income Proof (ITR, Salary Slip, Bank Statement)",
+        "Loan Application Form"
+      ],
+      "additional_if_applicable": [
+        "Property Papers (for secured loan)",
+        "Business Registration/Financial Statements (for business loan)",
+        "Collateral Details (if required)"
+      ]
+    }
+  },
+  {
+    "type": "Vehicle Loan",
+    "description": "A vehicle loan finances personal or commercial vehicles like cars, bikes, trucks, and buses with flexible tenure and quick approval. It supports personal mobility and business logistics without upfront burden.",
+    "loan_limits": {
+      "maximum": "50 lac",
+      "minimum": "2 lac"
+    },
+    "duration": "1 year - 10 years",
+    "documents": {
+      "common": [
+        "Identity proof (PAN, Aadhaar, Passport, etc.)",
+        "Address proof (Utility bill, Rent agreement, etc.)",
+        "Latest passport-size photographs",
+        "Income proof (salary slips, ITR, or audited financials)",
+        "Bank statements (last 6–12 months)",
+        "Vehicle quotation/proforma invoice"
+      ],
+      "commercial_specific": [
+        "Business registration certificate / GST registration",
+        "Partnership deed or company incorporation papers (if applicable)",
+        "Proof of business turnover (audited balance sheet, profit & loss)",
+        "Transport permits or route permits (if required)"
+      ],
+      "domestic_specific": [
+        "Employment proof (offer letter, employee ID)",
+        "Latest Form 16 or income tax returns (for salaried applicants)",
+        "Co-applicant/guarantor details (if required by lender)"
+      ]
+    }
+  }
+]

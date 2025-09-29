@@ -1,3 +1,4 @@
+import Bank from "@/components/Bank";
 import Banner from "@/components/Banner";
 import LoanCalculator from "@/components/Contact";
 import FinancialBanner from "@/components/FinancialBanner";
@@ -10,6 +11,7 @@ const Home = () => {
       <Banner />
       <FinancialBanner />
       <ServicesSection />
+      <Bank />
       <LoanCalculator />
       <Footer />
     </div>
