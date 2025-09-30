@@ -47,10 +47,15 @@ const LoanDetail: React.FC<DetailsProps> = ({ details }) => {
           transition={{ duration: 0.6 }}
           className="text-center space-y-6"
         >
-          <h1 className="text-5xl font-extrabold text-gray-800 tracking-tight drop-shadow-md">
+          <h2
+            className="text-xl text-center sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 
+             font-bold text-gray-800  drop-shadow-md 
+              py-4 rounded-3xl  bg-white/90 backdrop-blur"
+          >
             {loan.type}
-          </h1>
-          <p className="text-gray-700 text-lg max-w-3xl mx-auto leading-relaxed">
+          </h2>
+
+          <p className="text-gray-700 rounded-2xl bg-white/90 backdrop-blur text-lg p-8 mx-auto text-justify leading-relaxed">
             {loan.description}
           </p>
           {loan.provider && (
