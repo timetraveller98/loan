@@ -78,26 +78,6 @@ const Navbar = () => {
           </button>
         )}
       </nav>
-
-      {/* Mobile Menu Items */}
-      {isMobile && isMobileMenuOpen && (
-        <div className="md:hidden bg-gray-100 shadow-md px-4 py-3 space-y-2">
-          <Link
-            href="/"
-            className="block text-gray-700 hover:text-gray-900 transition"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Home
-          </Link>
-          <Link
-            href="/services"
-            className="block text-gray-700 hover:text-gray-900 transition"
-            onClick={() => setMobileMenuOpen(false)}
-          >
-            Services
-          </Link>
-        </div>
-      )}
     </header>
   );
 };

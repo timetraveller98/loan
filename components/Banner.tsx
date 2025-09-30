@@ -58,17 +58,13 @@ const Banner: React.FC = () => {
             </div>
           </div>
         </div>
-
-        {/* CTA Button */}
-        <button
+        {/* <button
           type="button"
           className="bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold px-6 py-3 rounded-lg mt-6 transition duration-300 w-full sm:w-auto"
         >
           CALL US →
-        </button>
+        </button> */}
       </div>
-
-      {/* Right Side Image Section */}
       <div className="w-full lg:w-1/2 flex flex-col items-center relative mt-10 lg:mt-0">
         <div className="relative rounded-full border-8 border-white shadow-xl overflow-hidden w-48 h-48 sm:w-60 sm:h-60 lg:w-80 lg:h-80 flex items-center justify-center bg-gray-200">
           <Image

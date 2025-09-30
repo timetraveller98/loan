@@ -1,6 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 
+const services = [
+  { name: "Property Loan", id: "property-loan" },
+  { name: "Business Loan", id: "business-loan" },
+  { name: "Private Loan", id: "private-loan" },
+  { name: "Vehicle Loan", id: "vehicle-loan" },
+  { name: "Travel Loan", id: "travel-loan" },
+  { name: "Personal Loan", id: "personal-loan" },
+];
 const Footer = () => {
   return (
     <div
@@ -45,12 +53,6 @@ const Footer = () => {
                 <Link href="/">Home</Link>
               </li>
               <li>
-                <Link href="/services">Services</Link>
-              </li>
-              <li>
-                <Link href="/loan-calculator">Loan Calculator</Link>
-              </li>
-              <li>
                 <Link href="/privacy-policy">Privacy Policy</Link>
               </li>
               <li>
@@ -62,37 +64,11 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-bold mb-4 text-gray-800">Services</h3>
             <ul className="space-y-2 font-semibold text-sm text-gray-800">
-              <li>
-                <Link href="/services/education-loan">Education Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/home-loan">Home Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/business-loan">Business Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/personal-loan">Personal Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/project-loan">Project Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/vehicle-loan">Vehicle Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/travel-loan">Travel Loan</Link>
-              </li>
-              <li>
-                <Link href="/services/loan-against-property">
-                  Loan Against Property
-                </Link>
-              </li>
-              <li>
-                <Link href="/services/private-funding-loan">
-                  Private Funding Loan
-                </Link>
-              </li>
+              {services.map((service) => (
+                <li key={service.id}>
+                  <Link href={`services/${service.id}`}>{service.name}</Link>
+                </li>
+              ))}
             </ul>
           </div>
         </div>
@@ -124,7 +100,7 @@ const Footer = () => {
               xxxyyzzz@gmail.com
             </Link>
           </p>
-          <p className="text-gray-800">REGD. OFFICE (CIN: U65990WB19XXXXX)</p>
+          <p className="text-gray-800">REGD. (CIN: U65990WB19XXXXX)</p>
         </div>
       </div>
     </div>
