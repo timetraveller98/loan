@@ -1,4 +1,9 @@
 @import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
 .rupee-bg {
   background-image: url("/rupee.png");
   background-repeat: repeat;
